@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog & News - Company Name</title>
+
+  <!-- CSS Internal -->
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 1rem 2rem;
+    }
+
+    .navbar {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0;
+      margin: 0;
+    }
+
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+      color: #00c8ff;
+      border-bottom: 2px solid #00c8ff;
+      padding-bottom: 4px;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+
+    .blog-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+
+    .blog-item {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      padding: 1rem;
+    }
+
+    .blog-item img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+    }
+
+    .blog-item h2 {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+
+    .blog-item p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .blog-item a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #00c8ff;
+      text-decoration: none;
+    }
+
+    .blog-item a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 3rem;
+      background-color: #1f1f1f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <ul class="navbar">
+      <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="clientsandpartners.html">Clients & Partners</a></li>
+                <li><a href="blogasep.html">Blog</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <h1>Blog & Company News</h1>
+
+    <div class="blog-list">
+      <div class="blog-item">
+        <img src="foto2.jpg" alt="Article 1">
+        <h2>5 Cara Efektif Meningkatkan Kolaborasi Tim</h2>
+        <p>Pelajari cara membangun tim kerja yang solid dan produktif dalam proyek digital modern.</p>
+        <a href="#">Read more</a>
+      </div>
+
+      <div class="blog-item">
+        <img src="foto3.jpg" alt="Article 2">
+        <h2>Client Story: Sukses Digitalisasi Toko Tradisional</h2>
+        <p>Kisah sukses salah satu klien kami dalam transformasi digital dan peningkatan omzet.</p>
+        <a href="#">Read more</a>
+      </div>
+
+      <div class="blog-item">
+        <img src="foto4.jpg" alt="Article 3">
+        <h2>Tren Teknologi 2025 yang Perlu Anda Tahu</h2>
+        <p>Teknologi terus berkembang pesat. Simak tren paling penting untuk bisnis tahun ini.</p>
+        <a href="#">Read more</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Company Name. All rights reserved. Kelompok 7</p>
+  </footer>
+
+</body>
+</html>
